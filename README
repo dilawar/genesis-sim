@@ -6,3 +6,10 @@ an OFFICIAL release.
 This repo is used to build genesis packages on open build service.
 
 https://build.opensuse.org/package/show/home:dilawar/genesis
+
+If you install the package, you have to do the following:
+
+    $ cp /etc/genesis/simrc ~/.simrc
+
+Open the file and update the variables (if neccessary). I did not test the
+package exhaustively. If you find an error, do report on issues.

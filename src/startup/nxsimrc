@@ -6,9 +6,9 @@
 //      SIMPATH - path to search for scripts (includes the startup path)
 //      SIMNOTES - default file for simulator notes
 //===========================================================================
-setenv SIMPATH	. /usr/genesis/startup
-setenv SIMNOTES {getenv HOME}/.notes
-setenv GENESIS_HELP /usr/genesis/Doc
+setenv SIMPATH	. /usr/lib/genesis/startup
+setenv SIMNOTES ~/.notes
+setenv GENESIS_HELP /usr/lib/genesis/Doc
 
 //===========================================================================
 //                             set up tables 

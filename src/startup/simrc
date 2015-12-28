@@ -15,7 +15,7 @@ setenv SIMPATH	. /usr/lib/genesis/startup		\
 setenv SIMPATH {getenv SIMPATH} /usr/genesis/Scripts/X1compat
 
 setenv SIMNOTES ~/.notes
-setenv GENESIS_HELP /usr/lib/genesis/Doc
+setenv GENESIS_HELP /usr/share/genesis/Doc
 
 //===========================================================================
 //                             set up tables 
